@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* ===== Couleurs personnalisées ===== */
+$dark-zone-color: #0d6efd;
+$light-zone-color: #e9ecef;
+
+/* ===== Extension Bootstrap ===== */
+$primary: $dark-zone-color;
+$secondary: $light-zone-color;
+
+/* ===== Import Bootstrap ===== */
+@import "bootstrap/scss/bootstrap";
